@@ -2,7 +2,7 @@
   <id>leviysoft.rainbowpony</id>
   <name>Legacy API hider</name>
   <version>1.0</version>
-  <vendor email="danslapman@gmail.com.com">danslapman</vendor>
+  <vendor email="danslapman@gmail.com.com" url="https://github.com/leviysoft/rainbowpony">danslapman</vendor>
 
   <description><![CDATA[
       This plugin completely hides deprecated items from completion list.
