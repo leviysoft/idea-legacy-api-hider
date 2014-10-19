@@ -1,0 +1,22 @@
+<idea-plugin version="2">
+  <id>leviysoft.rainbowpony</id>
+  <name>Legacy API hider</name>
+  <version>1.0</version>
+  <vendor email="danslapman@gmail.com.com">danslapman</vendor>
+
+  <description><![CDATA[
+      This plugin completely hides deprecated items from completion list.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      First release.
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="131"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+      <completion.contributor language="any" implementationClass="leviysoft.rainbowpony.LegacyEliminator" order="first"/>
+  </extensions>
+
+</idea-plugin>
