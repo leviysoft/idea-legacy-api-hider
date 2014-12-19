@@ -13,7 +13,7 @@
     ]]>
   </change-notes>
 
-  <idea-version since-build="131"/>
+  <idea-version since-build="135.1306"/>
 
   <extensions defaultExtensionNs="com.intellij">
       <completion.contributor language="any" implementationClass="leviysoft.rainbowpony.LegacyEliminator" order="first"/>
