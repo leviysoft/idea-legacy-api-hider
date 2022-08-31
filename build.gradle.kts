@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "leviysoft"
-version = "2.0-SNAPSHOT"
+version = "2.0"
 
 repositories {
     mavenCentral()
