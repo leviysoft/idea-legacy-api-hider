@@ -17,6 +17,11 @@
     This plugin completely hides deprecated items from completion list.
   ]]></description>
 
+    <change-notes><![CDATA[
+      31.08.2022 [v2] Rewrite plugin with modern sdk
+    ]]>
+    </change-notes>
+
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
