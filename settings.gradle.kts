@@ -1,0 +1,1 @@
+rootProject.name = "idea-legacy-api-hider"
