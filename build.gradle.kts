@@ -1,11 +1,11 @@
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.6.20"
-    id("org.jetbrains.intellij") version "1.7.0"
+    id("org.jetbrains.intellij") version "1.13.3"
 }
 
 group = "leviysoft"
-version = "2.0"
+version = "2.1"
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-    version.set("2021.3")
+    version.set("2022.1")
     type.set("IC") // Target IDE Platform
 
     plugins.set(listOf("java"))
@@ -31,8 +31,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("213")
-        untilBuild.set("223.*")
+        sinceBuild.set("221")
+        untilBuild.set("233.*")
     }
 
     signPlugin {
